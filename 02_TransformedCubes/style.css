@@ -1,0 +1,61 @@
+li {
+	display: inline-block;
+	margin: 50px;
+}
+
+#navbar > ul > li {
+	float: center;
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+	width:15%;
+	font-family: Helvetica;
+	font-size: 16px;
+	margin: 0px;
+	border: solid blue;
+}
+
+#building {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/*#home{
+	margin-right:50px;
+}*/
+
+p{
+	padding: 5px 50px 5px 50px;
+}
+
+.icons {
+	flex: 0 0 30%;
+	min-height: 50%;
+	margin-bottom: 20px;
+	border: solid purple;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+}
+
+.icon-content {
+	border: 1px solid red;
+	width: 100%;
+	text-align: center;
+}
+
+.halls {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+label{
+	display: block;
+}
+
+.historypage {
+	background: pink;
+}

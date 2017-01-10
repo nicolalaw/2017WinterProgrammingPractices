@@ -1,0 +1,27 @@
+li {
+	display: inline-block;
+	margin: 50px;
+}
+
+#home{
+	margin-right: 150px;
+}
+
+p{
+	padding: 5px 50px 5px 50px;
+}
+
+#building > div {
+	display: inline-block;
+	margin-right: 200px;
+	border: solid purple;
+}
+
+
+label{
+	display: block;
+}
+
+.historypage {
+	background: pink;
+}

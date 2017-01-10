@@ -1,0 +1,166 @@
+li {
+	display: inline-block;
+	margin: 50px;
+}
+
+#navbar > ul > li {
+	float: center;
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+	width:15%;
+	font-family: Helvetica;
+	font-size: 16px;
+	margin: 0px;
+	border: solid blue;
+}
+
+.building {
+	adf
+}
+
+.cube{
+	width:100%;
+	height: 100%;
+	position: absolute;;
+	transform-style: preserve-3d;
+
+}
+
+.cubeside{
+	width: inherit;
+	height: inherit;
+	position: absolute;
+
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,1);
+	background: rgba(0,0,0,.25);
+	color: white;
+
+}
+
+.sidetop{
+	transform: rotateY(90deg) translate3d(0, 0, 30px);
+}
+
+.sidebottom{
+	transform: rotateY(-90deg) translate3d(0, 0, 30px);
+}
+
+.sidefront{
+	transform: rotateY(0deg) translate3d(0, 0, 30px);
+}
+
+.sideback{
+	transform: rotateY(180deg) translate3d(0, 0, 30px);
+}
+
+.sideleft{
+	transform: rotateY(-90deg) translate3d(0, 0, 30px);
+}
+
+.sideright{
+	transform: rotateY(90deg) translate3d(0, 0, 30px);
+}
+
+
+
+
+
+/*#home{
+	margin-right:50px;
+}*/
+
+p{
+	padding: 5px 50px 5px 50px;
+}
+
+.icons {
+	flex: 0 0 30%;
+	min-height: 50%;
+	margin-bottom: 20px;
+	border: solid purple;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+}
+
+.icon-content {
+	border: 1px solid red;
+	width: 100%;
+	text-align: center;
+}
+
+.halls {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+label{
+	display: block;
+}
+
+.historypage {
+	background: pink;
+}
+
+
+#cubeDemo {
+	padding: 50px;
+	perspective: 600px;
+	width: 100px;
+	height: 100px;
+}
+.j-cube {
+	width: inherit;
+	height: inherit;
+	position: relative;
+
+	transform-style: preserve-3d;
+	/*transform: rotateX(30deg) rotateY(180deg);*/
+
+	/*outline: 1px solid teal;*/
+
+	transform: rotateX(0deg) rotateY(0deg);
+	transition: transform 1s ease;
+}
+.j-cube.j-turnRight {
+	transform: rotateY(90deg);
+}
+.j-cube-face {
+	width: inherit;
+	height: inherit;
+
+	position: absolute;
+
+	box-sizing: border-box;
+	border: 1px solid rgba(0,0,0,1);
+	background: rgba(0,0,0,.25);
+	color: white;
+}
+.j-ff {
+	transform: rotateY(0deg) translate3d(0, 0, 50px);
+}
+.j-fl {
+	transform: rotateY(-90deg) translate3d(0, 0, 50px);
+}
+.j-fr {
+	transform: rotateY(90deg) translate3d(0, 0, 50px);
+}
+.j-fb {
+	transform: rotateY(180deg) translate3d(0, 0, 50px);
+}
+.j-ft {
+	transform: rotateX(90deg) translate3d(0, 0, 50px);
+}
+.j-fd {
+	transform: rotateX(-90deg) translate3d(0, 0, 50px);
+}
+
+.j-cube-face img {
+	width: 100%;
+	height: 100%;
+	position: inherit;
+}
